@@ -1,1 +1,2 @@
 yarn create react-app letmeask --template typescript
+yarn add node-sass@^5.0.0

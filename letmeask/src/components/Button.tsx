@@ -11,4 +11,3 @@ export function Button(props: ButtonProps){
   )
 } 
 
-<Button />

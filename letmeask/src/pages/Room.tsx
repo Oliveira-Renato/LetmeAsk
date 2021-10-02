@@ -1,5 +1,7 @@
 import logoImg from "../assets/images/logo.svg"; 
-import { Button } from "../components/Button";
+
+import { Button } from "../components/Button"; 
+import { RoomCode } from "../components/RoomCode";
 import '../styles/room.scss';
 
 export function Room(){
@@ -8,11 +10,11 @@ export function Room(){
       <header>
         <div className="content">
           <img src={logoImg} alt="letmeask" />
-          <div>codigo</div>
+          <RoomCode />
         </div>
       </header>
 
-      <main className="content">
+      <main>
         <div className="room-title">
           <h1>Sala React</h1>
           <span>4 perguntas</span>

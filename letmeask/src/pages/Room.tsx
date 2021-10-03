@@ -47,7 +47,7 @@ export function Room(){
   useEffect(()=>{
     const roomRef = database.ref(`rooms/${roomId}`);
 
-    roomRef.once('value', room => {
+    roomRef.on('value', room => {
       const databaseRoom = room.val();
       const firebaseQuestions: FirebaseQuestions = databaseRoom.questions ?? {};
 
@@ -100,11 +100,11 @@ export function Room(){
           <RoomCode code={roomId} />
         </div>
       </header>
-
+      
       <main>
         <div className="room-title">
           <h1>Sala {title}</h1>
-          { questions.length > 0 && <span>{questions.length} perguntas</span>}
+          { questions.length > 0 && <span>{questions.length} pergunta(s)</span>}
         </div>
 
         <form onSubmit={handleSendQuestion}>
@@ -129,5 +129,6 @@ export function Room(){
         {JSON.stringify(questions)}
       </main>
     </div>
+    
   );
 }

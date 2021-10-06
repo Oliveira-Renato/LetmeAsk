@@ -20,10 +20,10 @@ export function RoomCode(props: RoomCodeProps) {
         
         toast.success('Successfully copied!',{
           style: {
-            color: '#737388'
+            color: '#11111'
           },
           iconTheme: {
-            primary: '#835afd',
+            primary: '#a15afd',
             secondary: '#FFF'
           }
         })

@@ -21,6 +21,7 @@ export function Home(){
     if (!user) {
      await signInWithGoogle()
     }
+    // if (us)
     history.push('./rooms/new');
   }
 

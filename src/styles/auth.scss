@@ -20,7 +20,7 @@
     }
 
     strong {
-      font: 700 36px 'Poppins', sans-serif;
+      font: 700 3.6rem 'Poppins', sans-serif;
       line-height: 42px;
       margin-top: 16px;
     }
@@ -175,5 +175,24 @@
         justify-content: center;
       }
     }
+  }
+}
+
+@media (max-width: 560px) {
+  #page-auth {
+
+    .main-content {
+      margin-top: 1.4rem;
+
+      p {
+        font-size: 1.7rem;
+      }
+    }
+
+    .separator {
+      font-weight: 500;
+      font-size: 1.6rem;
+    }
+
   }
 }

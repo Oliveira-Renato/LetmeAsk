@@ -19,3 +19,9 @@ body, input, button, textarea {
     font-size: 54.5%;
   }
 }
+
+@media (max-width: 482px) {
+  html {
+    font-size: 48.5%;
+  }
+}

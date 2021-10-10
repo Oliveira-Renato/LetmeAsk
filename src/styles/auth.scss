@@ -26,7 +26,7 @@
     }
 
     p {
-      font-size: 24px;
+      font-size: 2.4rem;
       line-height: 32px;
       margin-top: 16px;
       color: #f8f8f8;
@@ -54,7 +54,7 @@
       align-self: center;
     }
     h2 {
-      font-size: 24px;
+      font-size: 2.4rem;
       margin: 64px 0 24px;
       font-family: 'Poppins', sans-serif;
     }
@@ -77,7 +77,7 @@
       }
     }
     p {
-      font-size: 14px;
+      font-size: 1.4rem;
       color: #737388;
       margin-top: 16px;
 
@@ -112,7 +112,7 @@
     }
 
     .separator {
-      font-size: 14px;
+      font-size: 1.4rem;
       color: #a8a8b3;
 
       margin: 32px 0;
@@ -133,6 +133,46 @@
         height: 1px;
         background: #a8a8b3; 
         margin-left: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  #page-auth {
+    display: block;
+    
+    aside {
+      background: #835afd;
+      color: #fff;
+      display: flex;
+      padding: 10px 30px;
+      align-items: center;
+
+      p {
+          font-size: 2.2rem;
+          display: flex;
+          line-height: 16px;
+          margin-top: 8px;
+          justify-content: center;
+          color: #f8f8f8;
+      }
+
+      img {
+        width: 15%;
+        height: 5%;
+      }
+    }
+
+    .main-content {
+      > img {
+          max-width: 50%;
+      }
+
+      .create-room {
+        margin-top: 6.4rem;
+        height: 5.0rem;
+        justify-content: center;
       }
     }
   }

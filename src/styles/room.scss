@@ -111,5 +111,39 @@
       margin-top: 
       32px;
     }
+
+    .btn-finisher {
+      margin-top: 
+      32px;
+    }
   }
 }
+
+
+
+@media (max-width: 810px) {
+  #page-room {
+
+    main {
+
+
+      .room-title {
+        margin: 32px 12px 25px;
+      }
+
+      form {
+
+        textarea {
+          margin: 0 12px;
+          width: -webkit-fill-available;
+        }
+
+        .form-footer {
+          margin: 0 12px;
+        }
+      }
+    }
+  } 
+}
+
+

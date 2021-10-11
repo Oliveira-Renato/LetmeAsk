@@ -61,7 +61,7 @@ export function AdminRoom(){
     <div id="page-room">
       <header>
         <div className="content">
-          <img src={logoImg} alt="letmeask" />
+          <img src={logoImg} onClick={() => history.push('/')}  alt="letmeask" />
           <div>
             <RoomCode code={roomId} />
           </div>

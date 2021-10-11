@@ -4,7 +4,11 @@ yarn add react-router-dom
 yard add @types/react-router-dom -D
 react-hot-toast --- !important
 
+yarn add @types/styled-components -D
+
 supabase <--- banco de dados like firebase but relacional like postgresql
 
 
 caniuse.com/ seach for GAP <--- Help with spacement when using display flex or Grid
+
+coolors.co/   <--- para paleta de cores

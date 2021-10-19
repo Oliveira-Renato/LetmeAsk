@@ -9,13 +9,11 @@ interface Props {
   toggleTheme(): void;
 }
 
-const Header: React.FC<Props> = ({ toggleTheme }) => {
+const Toggler: React.FC<Props> = ({ toggleTheme }) => {
   const { colors, title } = useContext(ThemeContext);
 
   return (
     <Container>
-      Hello World
-
       <Switch
         onChange={toggleTheme}
         checked={title === 'dark'}
@@ -31,4 +29,4 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
   );
 };
 
-export default Header;
+export default Toggler;

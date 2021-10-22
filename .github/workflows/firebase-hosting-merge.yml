@@ -19,6 +19,7 @@ jobs:
       - run: npm install --save @types/react-router-dom
       - run: npm install node-sass@^5.0.0
       - run: npm install styled-components
+      - run: npm install @types/styled-components -D
       - run: npm install react-switch
       - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0

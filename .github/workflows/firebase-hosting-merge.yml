@@ -16,6 +16,8 @@ jobs:
       - run: npm install react-hot-toast
       - run: npm install react-router-dom
       - run: npm install classnames
+      - run: npm install --save @types/react-router-dom
+      - run: npm install node-sass@^5.0.0
       - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:

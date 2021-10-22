@@ -21,6 +21,7 @@ jobs:
       - run: npm install styled-components
       - run: npm install @types/styled-components -D
       - run: npm install react-switch
+      - run: npm install polished
       - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:

@@ -1,4 +1,4 @@
-export default {
+export default {//dar manutenção
   title: 'dark',
 
   colors: {
@@ -14,3 +14,4 @@ export default {
   },
 
 };
+

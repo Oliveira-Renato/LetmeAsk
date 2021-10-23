@@ -12,3 +12,5 @@ supabase <--- banco de dados like firebase but relacional like postgresql
 caniuse.com/ seach for GAP <--- Help with spacement when using display flex or Grid
 
 coolors.co/   <--- para paleta de cores
+
+it worked!

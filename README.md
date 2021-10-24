@@ -15,6 +15,8 @@ Letmeask é um site desenvolvido com o intuito de permitir a criação de salas 
 
 Este projeto foi desenvolvido durante a *Next Level Week Together*, oferecido pela [Rocketseat](https://rocketseat.com.br/).
 
+Acesse o site clicando [aqui](https://letmeask-now.web.app/) e confira você mesmo.
+
 
 ## :scroll: Lincense
 

@@ -1,4 +1,4 @@
-export default {//dar manutenção
+export default {//dar manutenção depois
   title: 'dark',
 
   colors: {

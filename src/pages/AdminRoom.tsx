@@ -1,4 +1,4 @@
-//import { FormEvent,useState } from 'react';
+//import { FormEvent,useState } from 'react';//lol
 import deleteImg from '../assets/images/delete.svg';
 import logoImg from "../assets/images/logo.svg";
 import checkImg from "../assets/images/check.svg";

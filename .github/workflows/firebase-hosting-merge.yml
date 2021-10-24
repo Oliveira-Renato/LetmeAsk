@@ -19,9 +19,12 @@ jobs:
           cmd: build # will run `yarn build` command
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          args: deploy --only hosting
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LETMEASK_NOW }}'
           channelId: live
           projectId: letmeask-now
+      - name: install firebase
+          run: npm i firebase-tools -g 
+      - name: deploy
+          run: firebase deploy --token ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LETMEASK_NOW }}
           
